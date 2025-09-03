@@ -21,7 +21,7 @@ public class SlimelessLeads
 
     public SlimelessLeads()
     {
-    }<
+    }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
