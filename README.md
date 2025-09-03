@@ -1,2 +1,2 @@
-# A mod that adds a new crafting recipe for arrows
-Now they can also be crafted using an iron nugget instead of flint.
+# A mod that lets you craft leads wihout a slimeball
+The old crafting has been replaced with one without a slimeball.
