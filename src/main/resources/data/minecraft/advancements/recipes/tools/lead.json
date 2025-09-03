@@ -1,23 +1,12 @@
 {
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_feather": {
+    "has_string": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:feather"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_iron_nugget": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_nugget"
+              "minecraft:string"
             ]
           }
         ]
@@ -26,21 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:iron_tipped_arrow"
+        "recipe": "minecraft:lead"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_feather",
-      "has_iron_nugget",
+      "has_string",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iron_tipped_arrow"
+      "minecraft:lead"
     ]
   },
   "sends_telemetry_event": false
